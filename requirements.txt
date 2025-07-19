@@ -1,2 +1,5 @@
 streamlit
 pyrebase4
+setuptools # This is needed for pkg_resources
+google-cloud-storage # pyrebase4 might implicitly need this newer version
+oauth2client # pyrebase4 often has a dependency on this for authentication
