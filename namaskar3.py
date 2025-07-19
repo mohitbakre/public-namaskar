@@ -7,16 +7,7 @@ today = datetime.date.today() # This correctly initializes 'today' as a datetime
 min_allowed_dob = today.replace(year=today.year - 100) # 'today' is already a date object, so no .date() needed
 # --- END GLOBAL DATE DEFINITIONS ---
 
-# --- Supabase Client Initialization (kept for potential future use) ---
-#supabase_url = st.secrets.get("SUPABASE_URL")
-#supabase_key = st.secrets.get("SUPABASE_KEY")
 
-if not supabase_url or not supabase_key:
-    # This warning won't stop the app now, as we're not relying on auth initially
-    st.sidebar.warning("Supabase URL or Key not found in Streamlit secrets. Supabase features will be disabled.")
-    supabase = None # Set supabase to None if keys are missing
-else:
-    supabase: Client = create_client(supabase_url, supabase_key)
 
 # --- Session State Management (kept for potential future use) ---
 if 'logged_in' not in st.session_state:

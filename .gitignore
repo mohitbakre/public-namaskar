@@ -1,0 +1,11 @@
+# Streamlit secrets file - CRITICAL: DO NOT COMMIT SENSITIVE DATA
+.streamlit/secrets.toml
+
+# Python specific ignores
+__pycache__/
+*.pyc
+.venv/
+env/
+venv/
+*.log
+.DS_Store # macOS specific
