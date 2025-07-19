@@ -1,6 +1,5 @@
 import streamlit as st
 import datetime
-from supabase import create_client, Client
 import base64
 
 # --- GLOBAL DATE DEFINITIONS ---
