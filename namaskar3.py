@@ -99,7 +99,7 @@ with col_title:
     st.markdown("<h1 style='text-align: center;font-size:30px; font-family:Harlow Solid Italic;'>Spirituality Unlimited!!</h1>",unsafe_allow_html=True)
 with col_right_img:
     # Make sure 'astrologer_photo.png' is in the same directory as your script
-    st.image("astrologer2.png", width=100) # Placeholder: Replace "astrologer_photo.png" with your actual photo file
+    st.image("logo.png", width=100) # Placeholder: Replace "astrologer_photo.png" with your actual photo file
 # --- End Logo, Title, and Astrologer Photo ---
 
 # --- Persistent Error Display (kept for general error handling) ---
