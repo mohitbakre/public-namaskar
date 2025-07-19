@@ -9,8 +9,8 @@ min_allowed_dob = today.replace(year=today.year - 100) # 'today' is already a da
 # --- END GLOBAL DATE DEFINITIONS ---
 
 # --- Supabase Client Initialization (kept for potential future use) ---
-supabase_url = st.secrets.get("SUPABASE_URL")
-supabase_key = st.secrets.get("SUPABASE_KEY")
+#supabase_url = st.secrets.get("SUPABASE_URL")
+#supabase_key = st.secrets.get("SUPABASE_KEY")
 
 if not supabase_url or not supabase_key:
     # This warning won't stop the app now, as we're not relying on auth initially
